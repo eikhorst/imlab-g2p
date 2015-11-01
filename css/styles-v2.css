@@ -1,0 +1,51 @@
+.tab-pane {
+	margin: 1em 0;
+}
+
+.applicant-info .row {
+	margin-bottom: 6px;
+}
+
+.data-label {
+	font-weight: 500;
+	text-align: left;
+}
+
+.tab-pane h2 {
+	font-size: 20px;
+}
+
+h4 {
+	font-size: 14px;	
+	margin-bottom: 4px;
+}
+
+td.details-control {
+    background: url('/images/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('/images/details_close.png') no-repeat center center;
+}
+
+#modal-confirm-addtoclass .applicant-name,
+#modal-confirm-addtoclass .class-name {
+	font-weight: bold;
+}
+
+td.date-cell {
+	width: 180px;
+}
+
+#modal-wait .modal-dialog {
+	top: 35%;
+	text-align: center;
+}
+
+.bootbox.modal .modal-dialog {
+	top: 35%;
+}
+
+.nobreak {
+	white-space: nowrap;
+}
